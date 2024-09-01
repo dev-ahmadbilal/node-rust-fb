@@ -1,0 +1,19 @@
+{
+  "name": "node-rust-fib",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Ahmad <ahmad.bilal@paynest.ae>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.10.1"
+  },
+  "scripts": {
+    "install": "neon build",
+    "start": "node lib/index.js",
+    "benchmark": "node lib/benchmark.js"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
